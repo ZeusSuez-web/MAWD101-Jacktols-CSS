@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;  /* center the whole container */
+    align-items: center;
+    height: 100vh;  /* center vertically */
+    margin: 0;
+    background-color: white;
+}
+
+.image-container {
+    display: flex;
+    gap: 40px;  /* space between characters */
+}
+
+.character {
+    text-align: center;  /* makes description under the image */
+}
+
+.character img {
+    border: 15px solid black;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.character p {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
