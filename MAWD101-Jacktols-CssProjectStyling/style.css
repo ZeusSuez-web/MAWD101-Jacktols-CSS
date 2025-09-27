@@ -28,29 +28,38 @@ body {
     height: auto;
     width: auto;
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
+ -webkit-text-stroke: <width> <white>;
+  -webkit-text-stroke: 0px;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
     
 }
 #videoBG {
     position: fixed;
     z-index: -1;
 
-    width: 100%;
+    width: 110%;
     height: auto;
 }
 .page-title {
     position: absolute;
-    height: 95%;
+    height: 100%;
     text-align: center;
     font-size: 60px;
     margin-top: 40px;
     margin-bottom: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-    background: linear-gradient(90deg, #62ddff, #5e69ff, rgb(236, 25, 255));
+    background: linear-gradient(90deg, #f1c500 30%, #505050 20%, rgb(155, 155, 155));
+    stroke: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: <width> <white>;
+  -webkit-text-stroke: 0.5px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
     background-clip: text;
     color: transparent;
     border: line;
